@@ -1,6 +1,6 @@
 # WhatsApp Clone using Next.js and Firebase
 
-![Project Logo](project_logo.png)
+![Project Logo](https://pps.services.adobe.com/api/profile/70527C0A5A2847250A495ECB@AdobeID/image/75f26965-94e9-406a-8565-5acc25b9b933/230)
 
 This is a WhatsApp cloning project developed with [Next.js](https://nextjs.org/) and powered by [Firebase](https://firebase.google.com/). It includes features like real-time live chat, photo uploads, archiving chats, and more.
 
