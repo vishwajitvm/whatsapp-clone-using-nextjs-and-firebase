@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WhatsApp Clone using Next.js and Firebase
+
+![Project Logo](project_logo.png)
+
+This is a WhatsApp cloning project developed with [Next.js](https://nextjs.org/) and powered by [Firebase](https://firebase.google.com/). It includes features like real-time live chat, photo uploads, archiving chats, and more.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Development Server](#running-the-development-server)
+- [Features](#features)
+- [Repository](#repository)
+- [Setup Guide](#setup-guide)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Introduction
+
+This project is a WhatsApp clone that replicates some of the popular features of the WhatsApp messaging app. It provides a real-time chat system, photo uploads, and chat archiving. It is built using Next.js for the front end and Firebase for backend services.
+
+![Screenshot](screenshot.png)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Before you begin, ensure you have met the following requirements:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js installed
+- Git installed
+- A Firebase project created
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To install this project, follow these steps:
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/vishwajitvm/whatsapp-clone-using-nextjs-and-firebase.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Navigate to the project directory:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+    cd whatsapp-clone-using-nextjs-and-firebase
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Install the required dependencies:
+
+    ```bash
+        npm install
+        # or
+        yarn install
+        # or
+        pnpm install
+        # or
+        bun install
+
+### Running the Development Server
+To run the development server, use one of the following commands:
+
+    ```bash
+        npm run dev
+        # or
+        yarn dev
+        # or
+        pnpm dev
+        # or
+        bun dev
+
+The development server will start, and you can open [Navigate](http://localhost:3000) in your browser to see the result.
+
+### Running the Development Server
+To run the development server, use one of the following commands:
+
+### Features
+
+
+- Real-time live chat system
+- Photo uploads
+- Chat archiving
+- Firebase authentication for user authentication
